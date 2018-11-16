@@ -1,0 +1,20 @@
+@import './abstracts/variables';
+// @import './base/reset';
+// Components
+@import './components/buttons';
+@import './components/dropdown';
+@import './components/mapas';
+@import './components/search';
+// Layout
+@import './layout/footer';
+@import './layout/header';
+@import './pages/home';
+html {
+    font-size: 16px;
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}

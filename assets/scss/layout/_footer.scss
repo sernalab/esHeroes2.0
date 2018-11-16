@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.footer li a {
+    color: rgba(255, 255, 255, .5);
+    text-decoration: none;
+}
